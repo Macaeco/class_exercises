@@ -17,25 +17,6 @@ const suma = (...a) => {
 
 // suma('a',3,4)
 
-const suma2 = (...a) => {
-    let valor = 0;
-    if (a.length == 0) {
-        return console.log('ERROR: no s ehan recibido parametros')
-    } else {
-        a.forEach(e => {
-            const element = parseInt(e);
-            if (isNaN(element)) {
-                return console.log('Error: Argumento no numérico')
-            } else {
-                valor = valor + element;
-            }
-        })
-    }
-    return console.log(' el resultado es : ', valor);
-}
-
-// suma2('a',3,4)
-
 
 const sumaArray = (a) => {
 
