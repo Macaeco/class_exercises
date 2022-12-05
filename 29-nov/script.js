@@ -15,7 +15,7 @@ const suma = (...a) => {
     }
     return console.log(' el resultado es : ', valor);
 }
-
+ 
 // suma('a',3,4)
 
 
