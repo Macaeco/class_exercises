@@ -1,3 +1,4 @@
+console.log('EJERICIOS CLASES DIA 04-12-2022')
 const suma = (...a) => {
     let valor = 0;
     if (a.length === 0) {
@@ -14,7 +15,7 @@ const suma = (...a) => {
     }
     return console.log(' el resultado es : ', valor);
 }
-
+ 
 // suma('a',3,4)
 
 
