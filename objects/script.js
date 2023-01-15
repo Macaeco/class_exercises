@@ -51,6 +51,9 @@ const Dado = (event$, numCaras = 6) => {
         const cambio = document.getElementById(dados.id)
         cambio.textContent= Math.floor(Math.random() * numCaras)
     })
+    // si hubieramos    querido pasar paremtros al evento:
+    // boton.addEventListener("click", () => funcion("parametro"));
+
 
 }
 
