@@ -1,0 +1,22 @@
+.tablero {
+
+    width: 50rem;
+    min-height: 50rem;
+    height: fit-content;
+    background-color: green;
+    margin: 2rem;
+    border-color: black;
+    border-width: 3px;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dados{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    border-radius: 10%;
+    font-size: x-large;
+
+
+}
