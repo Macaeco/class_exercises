@@ -67,6 +67,30 @@ class Usuario {
 
 
 //clases abstractas 
+// solo se puede acceder a ua clase a no ser que lo heredemos
 
+abstract class Humano {
+    public function saludo (){
+        return 'Hola';
+    }
+}
 
+class Chica extends Humano{
 
+}
+
+$Lorena = new Chica;
+echo $Lorena->saludo(); 
+
+//Static
+
+//nos permite acceder a una propuedad sin tener que instanciarlo 
+
+ class Animal {
+    public static $especie = 'vertebrado';
+    public static function saludo ($especie){
+        return 'Hola animal'.$especie;
+    }
+}
+echo Animal::$especie;
+echo Animal::saludo('mamifero');
